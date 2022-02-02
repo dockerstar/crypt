@@ -1,0 +1,45 @@
+.button {
+    width: 101px;
+    height: 48px;
+    background: #25252D;
+    border-radius: 16px;
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #B0B7C3;
+    &:hover {
+        box-shadow: 0 0 10px rgba($color: #fff, $alpha: 1.0);
+    }
+}
+
+.buttons_gradient {
+    width: 215px;
+    height: 64px;
+    background: linear-gradient(70.18deg, #8BECFF 23.46%, #F49CF8 69.06%, #F0FE98 109.66%);
+    border-radius: 16px;
+    border: none;
+}
+.buttons_nogradient {
+    width: 158px;
+    height: 64px;
+    background: #25252D;
+    border-radius: 16px;
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    font-feature-settings: 'haln' on;
+    color: #B0B7C3;
+    margin-left: 24px;
+    margin-top: 20px;
+    &:hover {
+        box-shadow: 0 0 10px rgba($color: #fff, $alpha: 1.0);
+    }
+}

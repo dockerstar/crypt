@@ -1,0 +1,126 @@
+.price {
+    background: #1F1F1F;
+    padding: 178px 0 93px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__item {
+        height: 820px;
+        min-width: 388px;
+        padding: 90px 50px 47px 50px;
+        border-style: solid;
+        border-color: rgb(70, 67, 67);
+        box-shadow: 0px 44px 65px rgba(3, 8, 17, 0.19);
+        background: #1F1F1F;
+        border-radius: 16px;
+        cursor: pointer;
+        position: relative;
+        .price__popular {
+            position: absolute;
+            top: 35px;
+            left: 35px;
+        }
+        &-title {
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 26px;
+            color: #EEF1F5;
+        }
+        &-subtitle {
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            color: #8A94A6;
+        }
+        &-price {
+            margin-top: 56px;
+            margin-bottom: 56px;
+        }
+        &-priceup {
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            color: #EEF1F5;
+        }
+        &-value {
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            color: #8A94A6;
+        }
+        &-main {
+            margin-bottom: 32px;
+        }
+        &-section {
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            color: #B0B7C3;
+        }
+        &-subsection {
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 150%;
+            color: #FFFFFF;
+        }
+    }
+    &__btn {
+        position: relative;
+        width: 282px;
+        height: 68px;
+        background: #25252D;
+        border-radius: 16px;
+        border: none;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #B0B7C3;
+        margin-top: 5px;
+        z-index: 2;
+        &-active {
+            display: none;
+            bottom: 48px;
+            z-index: 1;
+            position: absolute;
+            background: linear-gradient(70.18deg, #8BECFF 23.46%, #F49CF8 69.06%, #F0FE98 109.66%);
+            color: #2B2D3A;
+            border-radius: 16px;
+            border: none;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            width: 280px;
+            height: 64px;
+            right: 50px;
+            margin-top: 6px;
+        }
+    }
+}
+.wrap {
+    width: 1320px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+.margin {
+    // margin: 0 40px;
+    
+}
+
+.price_hover {
+    background: #2B2D3A;
+}

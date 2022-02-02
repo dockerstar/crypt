@@ -1,0 +1,81 @@
+.become {
+    background: #1F1F1F;
+    max-height: 1000px;
+    position: relative;
+    &__block {
+        position: relative;
+        padding: 71px 77px 76px 72px;
+        margin: 0 auto;
+        background: #1F1F1F;
+        border-radius: 16px;
+        width: 956px;
+        height: 508px;
+        border-style: solid;
+        border-color: rgba($color: #2c2b2b, $alpha: 1.0);
+        box-shadow: 0px 44px 65px rgba(3, 8, 17, 0.19);
+        display: grid;
+        grid-template-columns: 400px 300px;
+        grid-template-rows: 80px 121px 64px; 
+        column-gap: 72px;
+        row-gap: 48px;
+        img {
+            grid-column: 2/3;
+        }
+        .title {
+            text-align: left;
+            grid-column: 1/2;
+            grid-row: 1/2;
+            line-height: 38px;
+            font-size: 38px;
+        }
+    }
+    &__descr {
+        font-family: Space Grotesk;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 150%;
+        color: #8A94A6;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    &__form {
+        grid-row: 3/4;
+        grid-column: 1/2;
+        #email {
+            width: 262px;
+            height: 64px;
+            background: #25252D;
+            border-radius: 15px;
+            border: none;
+            padding: 22px 42px 22px 34px;
+            font-family: Space Grotesk;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            color: #B0B7C3;
+            &:hover {
+                box-shadow: 0 0 10px rgba($color: #fff, $alpha: 1.0);
+            }
+        }
+    }
+    &__link {
+        width: 138px;
+        height: 64px;
+        background: linear-gradient(70.18deg, #8BECFF 23.46%, #F49CF8 69.06%, #F0FE98 109.66%);
+        border-radius: 16px;
+        border: none;
+        margin: 0 auto;
+        margin-top: 24px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #25252D;
+        position: absolute;
+        bottom: 69px;
+        left: 351px;
+    }
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import 'blocks/fonts';
+
+@import 'libs/bootstrap-reboot.min';
+
+
+* {
+    font-family: 'Space Grortesk', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto; 
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/price';
+@import 'blocks/title';
+@import 'blocks/contract';
+@import 'blocks/become';
+@import 'blocks/why';

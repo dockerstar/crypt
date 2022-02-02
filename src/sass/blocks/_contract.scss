@@ -1,0 +1,30 @@
+.contract {
+    background: #1F1F1F;
+    height: 287px;
+    &__subtitle {
+        font-family: Space Grotesk;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 24px;
+    }
+    &__btn {
+        display: block;
+        width: 101px;
+        height: 48px;
+        background: linear-gradient(70.18deg, #8BECFF 23.46%, #F49CF8 69.06%, #F0FE98 109.66%);
+        border-radius: 16px;
+        border: none;
+        margin: 0 auto;
+        margin-top: 24px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #25252D;
+    }
+}
